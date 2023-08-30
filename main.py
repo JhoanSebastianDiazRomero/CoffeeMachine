@@ -63,7 +63,7 @@ def process_successful_transaction():
     resources['money'] += drink['cost']
 
     if coin_total > drink['cost']:
-        print(f"“Here is ${round(coin_total - drink['cost'], 1)} dollars in change.” ")
+        print(f"“Here is ${round(coin_total - drink['cost'], 2)} dollars in change.” ")
 
     print(f"Here is your {order}☕️. Enjoy!")
 
